@@ -1,0 +1,217 @@
+::selection {
+  background-color: rgb(255, 229, 209);
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-theme-color {
+  color: #0d6efd;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
+h2 {
+  margin-top: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.item-snippet {
+  text-align: justify;
+}
+
+.sticky-top,
+.navbar,
+.dropdown-menu {
+  background-color: rgb(37, 41, 47);
+  border-color: rgb(81, 90, 98);
+}
+
+tr {
+  background-color: rgb(247, 248, 250);
+}
+tr:hover {
+  background-color: rgb(247, 248, 250);
+}
+
+#navbarDropdown:hover {
+  background-color: rgb(71, 77, 87);
+}
+#navbarDropdown:focus {
+  outline: none !important;
+}
+.dropdown-item {
+  color: white;
+}
+.dropdown-item:hover {
+  color: black;
+}
+
+.navbar-brand: hover, .navbar-nav >
+      a.nav-link:hover {
+  color: orange !important;
+}
+
+.yt-red {
+  color: red;
+  border-color: red;
+}
+.yt-red:hover {
+  background-color: red;
+  border-color: red;
+}
+.ig-orange {
+  color: orange;
+  border-color: orange;
+}
+.ig-orange:hover {
+  background-color: orange;
+  border-color: orange;
+}
+.line-green {
+  color: #03c755;
+  border-color: #03c755;
+}
+.line-green:hover {
+  border-color: #03c755;
+  background-color: #03c755;
+}
+.twitter-blue {
+  color: #1ea1f1;
+  border-color: #1ea1f1;
+}
+.twitter-blue:hover {
+  border-color: #1ea1f1;
+  background-color: #1ea1f1;
+}
+.facebook-blue {
+  color: #2d88ff;
+  border-color: #2d88ff;
+}
+.facebook-blue:hover {
+  border-color: #2d88ff;
+  background-color: #2d88ff;
+}
+.purple {
+  color: #a96fff;
+  border-color: #a96fff;
+}
+.purple:hover {
+  border-color: #a96fff;
+  background-color: #a96fff;
+}
+.GitHub-white {
+  color: rgb(205, 217, 229);
+  border-color: rgb(205, 217, 229);
+}
+.GitHub-white:hover {
+  color: rgb(45, 51, 59);
+  border-color: rgb(205, 217, 229);
+  background-color: rgb(205, 217, 229);
+}
+.Share-btn {
+  color: rgb(71, 77, 87);
+  border-color: rgb(71, 77, 87);
+}
+.Share-btn:hover {
+  color: white;
+  border-color: rgb(71, 77, 87);
+  background-color: rgb(71, 77, 87);
+}
+
+.badge {
+  color: rgb(29, 111, 220);
+  background-color: rgb(221, 244, 255);
+}
+.badge:hover {
+  color: white;
+  background-color: rgb(29, 111, 220);
+}
+
+.position-sticky > .card {
+  background-color: rgb(247, 248, 250);
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: rgb(34, 39, 46);
+  }
+
+  ::selection {
+    color: white;
+    background-color: rgb(255, 229, 209);
+  }
+
+  tr {
+    color: rgb(205, 217, 229);
+    background-color: rgb(45, 51, 59);
+    border-color: rgb(205, 217, 229);
+  }
+  tr:hover {
+    color: rgb(45, 51, 59);
+    background-color: rgb(205, 217, 229);
+    border-color: rgb(45, 51, 59);
+  }
+
+  .sticky-top,
+  .navbar,
+  .dropdown-menu {
+    background-color: rgb(45, 51, 59);
+  }
+
+  .navbar-nav > a.active {
+    color: rgb(205, 217, 229) !important;
+  }
+
+  .card {
+    color: rgb(205, 217, 229);
+    background-color: rgb(34, 39, 46);
+    border-color: rgb(67, 76, 86);
+  }
+
+  a,
+  .btn-outline-primary {
+    color: rgb(84, 155, 245);
+    border-color: rgb(84, 155, 245);
+  }
+
+  .text-theme-color {
+    color: rgb(84, 155, 245);
+  }
+
+  .btn-outline-primary:hover {
+    border-color: rgb(84, 155, 245);
+    background-color: rgb(84, 155, 245);
+  }
+  .badge {
+    color: rgb(84, 155, 245);
+    background-color: rgb(39, 52, 73);
+  }
+  .badge:hover {
+    color: white;
+    background-color: rgb(84, 155, 245);
+  }
+
+  .position-sticky > .card {
+    background-color: rgb(45, 51, 59);
+  }
+
+  .Share-btn {
+    color: rgb(205, 217, 229);
+    border-color: rgb(205, 217, 229);
+  }
+  .Share-btn:hover {
+    color: rgb(34, 39, 46);
+    border-color: rgb(205, 217, 229);
+    background-color: rgb(205, 217, 229);
+  }
+}
